@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   'org.apache.cordova.inappbrowser',
+1 verbose cli   '--json' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.1
+4 silly mapToRegistry name org.apache.cordova.inappbrowser
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/org.apache.cordova.inappbrowser
+8 verbose request uri https://registry.npmjs.org/org.apache.cordova.inappbrowser
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 10:38:29 AM
+11 verbose request id 4b1f7ab71f7342ba
+12 http request GET https://registry.npmjs.org/org.apache.cordova.inappbrowser
+13 http 404 https://registry.npmjs.org/org.apache.cordova.inappbrowser
+14 verbose headers { date: 'Fri, 27 Jul 2018 03:38:30 GMT',
+14 verbose headers   'content-type': 'application/json',
+14 verbose headers   'content-length': '21',
+14 verbose headers   connection: 'keep-alive',
+14 verbose headers   'set-cookie': [ '__cfduid=d71658a0481318751185301ef896d6b951532662709; expires=Sat, 27-Jul-19 03:38:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+14 verbose headers   'cache-control': 'max-age=300',
+14 verbose headers   'cf-cache-status': 'MISS',
+14 verbose headers   'cf-ray': '440c12d0af287050-SIN',
+14 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+14 verbose headers   'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+14 verbose headers   vary: 'accept-encoding, accept',
+14 verbose headers   server: 'cloudflare' }
+15 warn notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+16 silly get cb [ 404,
+16 silly get   { date: 'Fri, 27 Jul 2018 03:38:30 GMT',
+16 silly get     'content-type': 'application/json',
+16 silly get     'content-length': '21',
+16 silly get     connection: 'keep-alive',
+16 silly get     'set-cookie': [ '__cfduid=d71658a0481318751185301ef896d6b951532662709; expires=Sat, 27-Jul-19 03:38:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+16 silly get     'cache-control': 'max-age=300',
+16 silly get     'cf-cache-status': 'MISS',
+16 silly get     'cf-ray': '440c12d0af287050-SIN',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+16 silly get     vary: 'accept-encoding, accept',
+16 silly get     server: 'cloudflare' } ]
+17 verbose stack Error: Not found : org.apache.cordova.inappbrowser
+17 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+17 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+17 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+17 verbose stack     at emitTwo (events.js:87:13)
+17 verbose stack     at Request.emit (events.js:172:7)
+17 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+17 verbose stack     at emitOne (events.js:82:20)
+17 verbose stack     at Request.emit (events.js:169:7)
+17 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+18 verbose statusCode 404
+19 verbose pkgid org.apache.cordova.inappbrowser
+20 verbose cwd /Applications/MAMP/htdocs/mobile/AgroCheckStok
+21 error Darwin 17.5.0
+22 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "view" "org.apache.cordova.inappbrowser" "--json"
+23 error node v5.1.1
+24 error npm  v3.3.12
+25 error code E404
+26 error 404 Not found : org.apache.cordova.inappbrowser
+26 error 404
+26 error 404 'org.apache.cordova.inappbrowser' is not in the npm registry.
+26 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
